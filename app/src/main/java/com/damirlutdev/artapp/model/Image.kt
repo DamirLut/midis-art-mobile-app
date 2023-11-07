@@ -20,6 +20,11 @@ data class SearchResponse(
 );
 
 @Serializable
+data class ImageResponse(
+    val data: Image
+)
+
+@Serializable
 data class ImageThumb(
     val large: String,
     val original: String,

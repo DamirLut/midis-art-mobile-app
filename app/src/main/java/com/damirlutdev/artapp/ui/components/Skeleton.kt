@@ -46,14 +46,13 @@ fun Skeleton(modifier: Modifier = Modifier) {
     )
 
     Box(
-        modifier = Modifier
+        modifier = modifier
             .background(brush, RoundedCornerShape(4.dp))
-            .size(150.dp)
     )
 }
 
 @Preview
 @Composable
-fun SkeletonPreview(){
+fun SkeletonPreview() {
     Skeleton()
 }
